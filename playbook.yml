@@ -1,7 +1,7 @@
 
-- name: start nginx
+- name: install nginx
   hosts: 127.0.0.1
-  become: root
+  become: true
   roles:
     - nginx
 
