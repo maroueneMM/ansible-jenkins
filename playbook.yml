@@ -1,7 +1,7 @@
 
 - name: install nginx
   hosts: 127.0.0.1
-  become: false
+  become: true
   roles:
     - nginx
 
