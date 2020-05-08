@@ -1,8 +1,8 @@
 
 - name: install nginx
   hosts: 127.0.0.1
-  become: true
+  become: root
   roles:
-    - nginx
+    - curl
 
 
