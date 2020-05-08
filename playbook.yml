@@ -1,6 +1,6 @@
 
 - name: start nginx
-  hosts: all
+  hosts: 127.0.0.1
   become: yes
   roles:
     - nginx
